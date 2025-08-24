@@ -1,0 +1,11 @@
+# Terraform cache & providers
+.terraform/
+*.exe
+
+# State files
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Lock file
+.terraform.lock.hcl
